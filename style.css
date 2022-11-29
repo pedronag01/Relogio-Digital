@@ -1,0 +1,37 @@
+body{
+    background: #931111;
+    margin-top: 50px;
+}
+h1{
+    background: rgb(235, 235, 104);
+    height: 37px;
+    width: 570px;
+    margin: 50px;
+    margin-top: 70px;
+    
+}
+
+img{
+    height: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+div{
+    background: rgb(218, 228, 182);
+    font-size: 100px;
+    margin-top: 100px;
+    border-radius: 50%;
+    width: 500px;
+    height: 120px;
+    margin-bottom: 100px;
+    box-shadow: 20px 10px;
+    
+}
+footer{
+   background: white;
+   width: 100px;
+   border-radius: 50px;
+   text-align: center;
+   margin: auto;
+}
