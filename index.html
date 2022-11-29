@@ -2,43 +2,11 @@
 <html>
   <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/x-icon" href="./icon2.png">
-  <style>
-    body{
-    background: #151312;
-    margin-top: 50px;
-}
 
-div{
-    background: rgb(241, 243, 236);
-    font-size: 100px;
-    margin-top: 260px;
-    border-radius: 50%;
-    width: 500px;
-    height: 120px;
-    margin-bottom: 100px;
-    box-shadow: 20px 10px;
-    
-}
-footer{
-   background: white;
-   width: 100px;
-   border-radius: 50px;
-   text-align: center;
-   margin: auto;
-}
-
-  </style>
 <title>Relógio</title>
 <body onload="startTime()">
-
-
-  <center>
-
-
-
-
-<div id="txt"></div>
-
+<h1>Horário de Brasília</h1>
+  <center><div id="txt"></div>
 <script>
 function startTime() {
   const today = new Date();
@@ -58,6 +26,7 @@ function checkTime(i) {
 </script>
 </center>
 </body>
+
 <footer><center>&copy;<strong>Pedro.nag</strong> </center>
   
 </footer>
