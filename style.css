@@ -1,6 +1,9 @@
 body{
 background: #151312;
-margin-top: 50px;
+max-width: 500px;
+margin: auto;
+margin-top: 400px;
+margin-bottom: 400px;
 }
 
 div{
@@ -24,5 +27,12 @@ margin: auto;
 h1{
     color: white;
     text-align: center;
+    font-size: 100px;
+}
+p{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 450px;
 }
 
